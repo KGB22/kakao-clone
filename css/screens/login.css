@@ -1,0 +1,69 @@
+.welcome-header {
+    margin:90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.welcome-header__content {
+    width: 60%;
+    opacity: 0.5;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    padding: 15px 0px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+
+}
+
+#login-form input:focus{
+    border-color: var(--yellow);
+}
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/*not 사용하기
+이것을 제외한 나머지에 적용할게요 라는 뜻/
+ */
+/*
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+}
+*/
+#login-form input[type="submit"], #login-form input[type="button"] {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#login-form input[type="submit"]:hover, #login-form input[type="button"]:hover {
+    background-color: var(--yellow);
+
+}
+
+#login-form a{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
