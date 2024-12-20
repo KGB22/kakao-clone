@@ -1,0 +1,9 @@
+.dot {
+    width: 5px;
+    height: 5px;
+    font-size: 5px;
+    color:tomato;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}

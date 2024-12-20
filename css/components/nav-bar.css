@@ -21,17 +21,8 @@
 }
 
 .nav__noti {
-    background-color: red;
-    height:30px;
-    width:30px;
-    border-radius:15px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-weight:600;
+    left: 20px;
+    bottom: 16px;
     position: absolute;
-    left: 15px;
-    bottom: 15px;
 
 }
