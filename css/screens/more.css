@@ -1,0 +1,64 @@
+.more-screen .fa-exclamation-circle {
+    color: tomato;
+}
+.more-screen .a {
+    color: black;
+}
+
+.more-screen .icon-row {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 60%;*/
+    /*box-sizing: border-box;*/
+    /*height: 70%;*/
+}
+
+.more-screen .icon-row .icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--gray);
+}
+
+.more-screen .icon-row .icon-row__icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: var(--horizontal-space);
+}
+
+.more-suggestions__title {
+    margin-bottom: 20px;
+}
+.more-suggestions__icons {
+    display: flex;
+}
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: var(--horizontal-space);
+}
+
+.more-suggestions__icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.more-suggestions__icon-text{
+    color: var(--gray);
+}
+
