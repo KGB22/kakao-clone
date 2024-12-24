@@ -1,5 +1,5 @@
 .welcome-header {
-    margin:90px 0px;
+    margin:90px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,11 @@
 #login-form {
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0 30px;
 }
 
 #login-form input {
-    padding: 15px 0px;
+    padding: 15px 0;
     border: none;
     font-size: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);

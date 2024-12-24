@@ -11,6 +11,7 @@
 @import "components/dot.css";
 @import "components/icon-rows.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -27,6 +28,6 @@ body {
 }
 
 .main-screen {
-    padding : 0px var(--horizontal-space);
+    padding : 0 var(--horizontal-space);
 }
 
